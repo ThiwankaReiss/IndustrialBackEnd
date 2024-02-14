@@ -18,4 +18,5 @@ public class TINEntity {
     private Long id;
     private String registrationDate;
     private String randomNumber;
+    private String nic;
 }

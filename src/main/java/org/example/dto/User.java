@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class User {
     private Long id;
-    private String nic;
     private String name;
     private String nameWithInitials;
     private String birthDate;
@@ -18,4 +17,6 @@ public class User {
     private String incomeSource;
     private String profession;
     private String contactNumberType;
+    private String gender;
+    private String birthCountry;
 }

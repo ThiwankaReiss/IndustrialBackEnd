@@ -11,4 +11,5 @@ public class TIN {
     private Long id;
     private String registrationDate;
     private String randomNumber;
+    private String nic;
 }

@@ -17,7 +17,6 @@ public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nic;
     private String name;
     private String nameWithInitials;
     private String birthDate;
@@ -26,5 +25,7 @@ public class UserEntity {
     private String incomeSource;
     private String profession;
     private String contactNumberType;
+    private String gender;
+    private String birthCountry;
 
 }
